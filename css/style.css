@@ -128,7 +128,7 @@ button:focus {
   margin-bottom: 50px; }
   .main_title h1 {
     font-weight: bold;
-    font-size: 48px; }
+    font-size: 4vw; }
     @media (max-width: 576px) {
       .main_title h1 {
         font-size: 30px; } }

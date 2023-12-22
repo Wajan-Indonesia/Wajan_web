@@ -1,4 +1,17 @@
+@media (min-width:1619px){
+.addtop{
+height: 0px;
+}
+
+.textsmol{
+    display: none;
+}	
+}
 @media (max-width:1619px){
+		.textsmol{
+    display: none;
+}	
+
 	/* Main Menu Area css
 	============================================================================================ */
    .header_area .navbar .search {
@@ -12,6 +25,12 @@
 	}
 }
 @media (max-width:1199px){
+.textsmol{
+visibility: visible;
+    position: relative;
+    font-size: 1.5vw;
+    top: -70px;
+}	
 	/* Main Menu Area css
 	============================================================================================ */
 	.top_menu .container{
@@ -162,8 +181,14 @@
 	}
 	
 }
-@media (max-width:767px){
-	
+@media (max-width:797px){
+
+.textsmol{
+    position: relative;
+    font-size: 1.5vw;
+    top: -30px;
+}
+
 	.home_banner_area {
 		min-height: 500px;
 	}
@@ -303,7 +328,9 @@
 	}
 	/* End Main Menu Area css
 	============================================================================================ */
-	
+	.textsmol{
+    display: none;
+}
 
 
 	/* Home Banner Area css

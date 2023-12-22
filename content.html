@@ -25,7 +25,6 @@
   bottom: 20px;
   left: 20px;
  position: sticky;
-  z-index: 999;
 }
  
 
@@ -291,7 +290,7 @@ margin-top: 2em;
 
  <div id="copy-div">
   <span id="copy-icon">&#128203;</span>
-  <span id="copy-message">Copy link to this article</span>
+  <span id="copy-message">Salin link artikel ini</span>
 </div>
 
 
@@ -323,6 +322,12 @@ section1.style.transition = '1.5s ease';
 if (window.innerWidth < 580) {
     myDiv.style.backgroundImage = 'none';
  } 
+
+window.addEventListener('resize', function() {
+  if (window.innerWidth > 500 || window.innerWidth < 500) {
+    location.reload();
+  }
+});
 
 if (window.innerWidth < 580) {
     myHome.style.backgroundImage = 'none';

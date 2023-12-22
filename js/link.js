@@ -5,9 +5,9 @@ var pagelink = window.location.origin + window.location.pathname;
 var link = pagelink + "#" + storedCode;
   navigator.clipboard.writeText(link)
     .then(function() {
-      document.getElementById('copy-message').textContent = 'Copied';
+      document.getElementById('copy-message').textContent = 'Tersalin!';
 setTimeout(function() {
-      document.getElementById('copy-message').textContent = 'Copy link to this article';
+      document.getElementById('copy-message').textContent = 'Salin link artikel ini';
     }, 3500);
     })
     .catch(function(error) {
