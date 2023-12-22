@@ -583,7 +583,7 @@ button:focus {
       right: 25%;
       bottom: -53px;
       left: 0;
-      background: #f1f9ff;
+      background: #d5dadd7d;
       z-index: -1; }
   .travel_category .owl-stage {
     padding-left: 0 !important; }
@@ -3156,7 +3156,7 @@ h6 {
 /*About us*/
 .footer{
   margin-top: 100px;
-  background-color: #9ab5c9;
+  background-color: #494949;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
