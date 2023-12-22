@@ -3163,6 +3163,7 @@ h6 {
   padding-top: 15px;
   padding-bottom: 30px;
   color: white;
+    align-items: center;
 }
 .footer-sub{
   width: 20%;

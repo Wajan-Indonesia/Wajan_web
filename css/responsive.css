@@ -120,12 +120,10 @@
 		display: block;
 	}
 	.main_menu .navbar .navbar-brand {
-		display: inline-block;
-		padding-top: 11px;
-		width: 173px;
+		display: none;
 	}
 	.main_menu .navbar .navbar-brand img {
-		width: 50%;
+		display: none;
 	}
 	/* End Main Menu Area css
 	============================================================================================ */
@@ -165,6 +163,7 @@
 	
 }
 @media (max-width:767px){
+	
 	.home_banner_area {
 		min-height: 500px;
 	}
@@ -305,6 +304,8 @@
 	/* End Main Menu Area css
 	============================================================================================ */
 	
+
+
 	/* Home Banner Area css
 	============================================================================================ */
     .home_banner_area .banner_inner .banner_content {

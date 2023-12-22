@@ -46,8 +46,9 @@ section {
   background-size: cover;
 }
 .section1 .text {
-  top:20%;
-    transform: translateZ(-0.6px) scale(1.5,1.6) translate(-33%,350%);
+    font-family: 'Playfair Display';
+    top: 20%;
+    transform: translateZ(-0.6px) scale(1.5,1.6) translate(-16.5vw,15vh);
 }
 .section2 {
   background: rgb(68,35,19);

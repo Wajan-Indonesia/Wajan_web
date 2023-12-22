@@ -19,11 +19,15 @@
     
     <style>
 
+
+
 #copy-div {
-  position: sticky;
   bottom: 20px;
   left: 20px;
+ position: sticky;
+  z-index: 999;
 }
+ 
 
 #copy-icon {
 font-size: 30px;
@@ -38,8 +42,10 @@ font-size: 30px;
   font-size: 14px;
 }
 
-.text{
-    font-size: 6vw;
+.section1 .text {
+font-size: 6vw;
+  top:20%;
+    transform: translateZ(-0.6px) scale(1.5,1.6) translate(-33%,350%);
 }
 
       .rendangpad {
@@ -49,16 +55,50 @@ font-size: 30px;
         background-position: 65vw;
       }
 
-      .layout_padding {
+@media (min-width:680px){
+      .landing-section {
+        padding: 100px 0;
+        background-color: #ffffff;
+      }
+
+.layout_padding {
         padding: 75px 0;
       }
-      .contact_section {
+
+      .content-section {
+        padding: 50px 0;
+      }
+
+.contact_section {
 	min-height: 370px;
         background-image: url(./img/rendang.png);
         background-repeat: no-repeat;
         background-size: 320px;
         background-position: right center;
       }
+}
+
+@media (max-width:480px){
+.artc{
+margin-top: 2em;
+}
+
+.layout_padding {
+        padding: 0;
+      }
+
+.content-section {
+    padding: 10px 0;
+}
+
+.contact_section {
+	min-height: 370px;
+        background: white;
+        background-position: right center;
+      }
+}
+      
+      
 
       .card {
         width: 100%;
@@ -83,14 +123,9 @@ font-size: 30px;
         font-size: 16px;
       }
 
-      .landing-section {
-        padding: 100px 0;
-        background-color: #ffffff;
-      }
 
-      .content-section {
-        padding: 50px 0;
-      }
+
+
 
 
     </style>
@@ -108,7 +143,7 @@ font-size: 30px;
 					<a class="navbar-brand logo_h" href="index.html">
 						<img src="./img/wajan-logo.png" alt="">
 					</a>
-<a class="navbar-brand logo_h" href="index.html">
+<a class="col" href="index.html">
 						<h2>WAJAN</h2>
 					</a>
 
@@ -125,7 +160,7 @@ font-size: 30px;
 								<a class="nav-link" href="index.html">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="content.html">Category</a>
+								<a class="nav-link" href="content.html">Article</a>
 							</li>
 						</ul>
 						
@@ -173,7 +208,7 @@ font-size: 30px;
     <section id="content-section" class="content-section">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 order-1 pl-4">
+          <div class="col-md-6 order-1 pl-4 artc">
             <div class="section">
               <div class="section-heading">
                 <h2 class="mb-3">Keunikan Makanan</h2>
@@ -250,13 +285,18 @@ font-size: 30px;
           </div>
         </div>
       </div>
+
+
     </section>
 
-    <!-- ####################### Start Scroll to Top Area ####################### -->
-   <div id="copy-div">
+ <div id="copy-div">
   <span id="copy-icon">&#128203;</span>
   <span id="copy-message">Copy link to this article</span>
 </div>
+
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -268,7 +308,11 @@ font-size: 30px;
     <script src="js/content.js"></script>
     <script src="js/link.js"></script>
 
+
 <script>
+ var myDiv = document.getElementById('imgbawah');
+ var myHome = document.getElementById('landing-section');
+ 
 var section1 = document.querySelector('.section1');
 var originalMinHeight = '100vh';
 section1.style.minHeight = '0px';
@@ -276,6 +320,13 @@ section1.style.minHeight = '0px';
 setTimeout(function() {
   section1.style.minHeight = originalMinHeight;
 section1.style.transition = '1.5s ease';
+if (window.innerWidth < 580) {
+    myDiv.style.backgroundImage = 'none';
+ } 
+
+if (window.innerWidth < 580) {
+    myHome.style.backgroundImage = 'none';
+ } 
 }, 1000);
 </script>  
     
