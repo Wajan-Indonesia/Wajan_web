@@ -313,7 +313,7 @@ section1.style.minHeight = '0px';
 setTimeout(function() {
   section1.style.minHeight = originalMinHeight;
 section1.style.transition = '1.5s ease';
-if (window.innerWidth < 580) {
+if (window.innerWidth < 800) {
     myDiv.style.backgroundImage = 'none';
  } 
 
@@ -323,7 +323,7 @@ window.addEventListener('resize', function() {
   }
 });
 
-if (window.innerWidth < 580) {
+if (window.innerWidth < 768) {
     myHome.style.backgroundImage = 'none';
  } 
 }, 1000);
