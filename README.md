@@ -1,6 +1,7 @@
 
 # Wajan Indonesia ![wajan-logo](https://github.com/Wajan-Indonesia/Wajan_web/assets/125471579/40ec3c1a-4c6a-4d48-87a4-a15c7d59228a)
 Selamat datang di WAJAN, tempat di mana kelezatan dan keanekaragaman kuliner Nusantara menyatu dalam sebuah perjalanan yang memikat dan menggugah selera. WAJAN, singkatan dari Wondrous Assortment Journey of Appetizing in Nusantara, hadir sebagai wadah virtual yang menghubungkan Anda dengan kekayaan cita rasa Indonesia.
+<a href="https://wajan-indonesia.github.io/Wajan_web/">Wajan Indonesia Website</a>
 
 ## Tema Website
 Wajan-Indonesia merupakan website yang mengambil tema memperkenalkan masakan indonesia kepada masyarakat.
