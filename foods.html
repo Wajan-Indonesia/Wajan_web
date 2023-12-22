@@ -84,7 +84,7 @@
     
   </head>
   <body>
-   <!--================Header Menu Area =================-->
+
 	<header class="header_area">
 		<div class="main_menu">
 			<nav class="navbar navbar-expand-lg navbar-light">
@@ -119,7 +119,7 @@
 			</nav>
 		</div>
 	</header>
-	<!--================ Header Menu Area =================-->
+
 <section>
  <div class="container">
       <div class="flex">
@@ -262,8 +262,6 @@
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -275,38 +273,25 @@
 
 
 <script>
-// Mengambil semua elemen <a> dengan kelas "anima"
 const animaLinks = document.querySelectorAll('a.anima');
-
-// Menentukan interval waktu (dalam milidetik) antara setiap penambahan kelas
 const intervalTime = 400;
 
-// Fungsi untuk menambahkan kelas "animate__animated animate__fadeInDown" ke setiap elemen <a>
 function addAnimationClass() {
-  // Variabel indeks untuk melacak elemen saat ini
   let currentIndex = 0;
-
-  // Fungsi rekursif untuk menambahkan kelas pada setiap elemen dengan penundaan 1 detik
   function animateNextLink() {
-    // Cek apakah masih ada elemen yang belum diberi animasi
     if (currentIndex < animaLinks.length) {
       const link = animaLinks[currentIndex];
-      // Menambahkan kelas "animate__animated animate__fadeInDown" ke elemen <a> saat ini
       link.classList.add('cey', 'animate__animated', 'animate__fadeInDown');
-
-      // Meningkatkan indeks saat ini untuk melanjutkan ke elemen berikutnya
       currentIndex++;
 
-      // Menunda pemanggilan rekursif selama 1 detik sebelum melanjutkan ke elemen berikutnya
       setTimeout(animateNextLink, intervalTime);
     }
   }
 
-  // Memulai animasi dengan pemanggilan pertama
   animateNextLink();
 }
 
-// Memanggil fungsi untuk memulai animasi
+
 addAnimationClass();
 
  var myDiv = document.getElementById('imgbawah');
