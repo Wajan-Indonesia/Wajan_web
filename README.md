@@ -1,15 +1,15 @@
 
 # Wajan Indonesia ![wajan-logo](https://github.com/Wajan-Indonesia/Wajan_web/assets/125471579/40ec3c1a-4c6a-4d48-87a4-a15c7d59228a)
-bsite
 Selamat datang di WAJAN, tempat di mana kelezatan dan keanekaragaman kuliner Nusantara menyatu dalam sebuah perjalanan yang memikat dan menggugah selera. WAJAN, singkatan dari Wondrous Assortment Journey of Appetizing in Nusantara, hadir sebagai wadah virtual yang menghubungkan Anda dengan kekayaan cita rasa Indonesia.
+<a href="https://wajan-indonesia.github.io/Wajan_web/">Wajan Indonesia Website</a>
 
 ## Tema Website
-Wajan-Indonesia merupakan website yang mengambil tema memperkenalkan masakan indonesia kepada masyarakat.  
-Di dalam wajan web dapat di temukan beberapa makanan dari seluruh penjuru daerah di indonesia!  
+Wajan-Indonesia merupakan website yang mengambil tema memperkenalkan masakan indonesia kepada masyarakat.
+Di dalam Wajan-web dapat di temukan beberapa makanan dari seluruh penjuru daerah di indonesia!  
 dengan ini, masyarakat indonesia dapat mengenal lebih dalam tentang makanan-makanan kahas indonesia.
 
 ## Cara kerja web
-Di dalam Wajan web terdapat total 3 file HTML dan 18 artikerl, data dari artikel di simpan dalam file javascript di folder /js  dengan begini Wajan web memudahkan menggantian data artikel tanpa harus membuat banyak halaman HTML.
+Di dalam Wajan web terdapat total 3 file HTML dan 18 artikerl, data dari artikel di simpan dalam file javascript di folder /js,  dengan begini Wajan-web dapat dengan dinamis mengganti data artikel tanpa harus membuat banyak halaman HTML.
 
 ### Pengiriman data
 Ketika user klik nama pada makanan di homepage(index.html) maupun cards yang berada di page food, function javascript akan terpangil.  
